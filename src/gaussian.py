@@ -1,5 +1,5 @@
-from stats import calculate_mean
-from stats import calculate_cov
+from src.stats import calculate_mean
+from src.stats import calculate_cov
 
 class GaussianModel:
     def __init__(self, mean=None, cov=None):
